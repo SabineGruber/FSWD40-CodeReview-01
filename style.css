@@ -1,0 +1,19 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+	background-color: #CC3333;
+	color: white;
+	display: table;
+	width: 100%;
+	padding: 20px 0 20px 0;
+}
+.header img {
+	display: table-cell;
+    vertical-align: middle;
+}
+.header h1 {
+	font-size: 150%;
+	display: table-cell;
+    vertical-align: middle;
+}
