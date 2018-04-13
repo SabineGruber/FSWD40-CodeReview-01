@@ -1,19 +1,54 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
-	background-color: #CC3333;
-	color: white;
-	display: table;
-	width: 100%;
-	padding: 20px 0 20px 0;
+    background-color: #CC3333;
+    color: white;
+    display: table;
+    width: 100%;
+    padding: 20px 0 20px 0;
 }
+
 .header img {
-	display: table-cell;
+    display: table-cell;
     vertical-align: middle;
 }
+
 .header h1 {
-	font-size: 150%;
-	display: table-cell;
+    font-size: 150%;
+    display: table-cell;
     vertical-align: middle;
 }
+
+.nav {
+    background-color: #888888;
+	display: table;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contentrow1 {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
